@@ -1,0 +1,57 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+}
+
+.contactUs {
+  font-size: 28px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px 200px 10px 10px;
+  margin: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+button {
+  margin: 14px;
+  font-family: "Ubuntu", sans-serif;
+  width: 150px;
+  height: 40px;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid black;
+  background: #fff;
+  color: black;
+  border-radius: 18px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+
+button:hover {
+  background: rgb(0, 0, 0);
+  color: #fff;
+}

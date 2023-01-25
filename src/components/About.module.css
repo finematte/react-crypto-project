@@ -1,0 +1,28 @@
+.AboutPage {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.AboutPage h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.AboutPage p {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #4c4c4c;
+}
+
+.containerStyles {
+  width: 500px;
+  height: 280px;
+  margin: 0 auto;
+  padding-top: 40px;
+}

@@ -1,0 +1,46 @@
+.CryptoTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #dddddd;
+}
+
+.refreshButton {
+  margin-bottom: 10px;
+  margin-top: 40px;
+  padding: 8px 16px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.refreshButton:hover {
+  background-color: #333131;
+}
+
+.refreshTime {
+  text-align: center;
+  padding: 20px;
+  color: #333131;
+  font-size: 16px;
+}
